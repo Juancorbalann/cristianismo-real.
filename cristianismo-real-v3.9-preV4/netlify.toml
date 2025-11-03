@@ -1,0 +1,7 @@
+[build]
+  base = "cristianismo-real"
+  command = "npm run build"
+  publish = "cristianismo-real/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
